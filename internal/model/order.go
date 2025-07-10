@@ -3,9 +3,10 @@ package model
 import "time"
 
 type OrderItem struct {
-	ProductID string  `bson:"product_id" json:"product_id"`
-	Quantity  int     `bson:"quantity" json:"quantity"`
-	Price     float64 `bson:"price" json:"price"`
+	ProductID   string  `bson:"product_id" json:"product_id"`
+	ProductName string  `bson:"product_name" json:"product_name"`
+	Quantity    int     `bson:"quantity" json:"quantity"`
+	Price       float64 `bson:"price" json:"price"`
 }
 
 type Order struct {
