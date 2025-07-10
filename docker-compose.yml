@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - MONGO_URI=mongodb+srv://eka0789:Jakarta1989@cluster0.kj0kwel.mongodb.net/
+      - MONGO_URI=mongodb+srv://username:password@cluster0.kj0kwel.mongodb.net/
       - REDIS_ADDR=redis:6379
       - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
       - KAFKA_BROKER=kafka:9092
