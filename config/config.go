@@ -13,7 +13,7 @@ type Config struct {
 
 func LoadConfig() *Config {
 	return &Config{
-		MongoURI:     getEnv("MONGO_URI", "mongodb+srv://eka0789:Jakarta1989@cluster0.kj0kwel.mongodb.net/"),
+		MongoURI:     getEnv("MONGO_URI", "mongodb+srv://username:password@cluster0.kj0kwel.mongodb.net/"),
 		RedisAddr:    getEnv("REDIS_ADDR", "localhost:6379"),
 		RabbitMQ:     getEnv("RABBITMQ_URL", "amqp://guest:guest@localhost:5672/"),
 		KafkaBrokers: []string{getEnv("KAFKA_BROKER", "localhost:9092")},
