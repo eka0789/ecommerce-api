@@ -1,8 +1,6 @@
 package kafka
 
 import (
-	"log"
-
 	"github.com/segmentio/kafka-go"
 )
 

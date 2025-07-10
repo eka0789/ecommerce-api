@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/legitdev/ecommerce-api/internal/model"
+import "ecommerce-api/internal/model"
 
 type OrderRepository interface {
 	Create(*model.Order) (string, error)

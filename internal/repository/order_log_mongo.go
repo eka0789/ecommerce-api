@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/legitdev/ecommerce-api/internal/model"
+	"ecommerce-api/internal/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

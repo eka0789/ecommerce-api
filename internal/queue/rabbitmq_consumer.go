@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/legitdev/ecommerce-api/internal/cache"
-	"github.com/legitdev/ecommerce-api/internal/kafka"
+	"ecommerce-api/internal/cache"
+	"ecommerce-api/internal/kafka"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 
